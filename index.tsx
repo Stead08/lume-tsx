@@ -5,20 +5,20 @@ export const IndexPage = () => {
     title: "Hello World",
     description: "This is a description",
     isImportant: true,
-  }
+  };
   return (
-      <>
+    <>
       <head>
         <title>Index Page</title>
-        <link rel="stylesheet" href="./pages/css/styles.css"/>
+        <link rel="stylesheet" href="./pages/css/styles.css" />
       </head>
       <body>
-      <div>
-        <h1>Index Page</h1>
-        <ExamplePage {...examplePageProps} />
-      </div>
+        <div>
+          <h1>Index Page</h1>
+          <ExamplePage {...examplePageProps} />
+        </div>
       </body>
-        </>
+    </>
   );
 };
 
